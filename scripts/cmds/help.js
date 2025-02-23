@@ -25,7 +25,7 @@ module.exports = {
 
     if (args.length === 0) {
       const categories = {};
-      let msg = `╔════════════╗\n🌟 𝗔𝗛𝗠𝗘𝗗 𝗕𝗔𝗬𝗝𝗜𝗗 🌟\n╚════════════╝\n`;
+      let msg = `╔════════════╗\n🌟 SOBUJ HOSSAIN  🌟\n╚════════════╝\n`;
 
       for (const [name, value] of commands) {
         if (value.config.role > 1 && role < value.config.role) continue;
